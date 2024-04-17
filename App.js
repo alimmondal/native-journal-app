@@ -1,7 +1,7 @@
 import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
-// import { createStackNavigator } from "@react-navigation/stack";
+
 import RegisterPage from "./screens/RegisterPage";
 import LoginPage from "./screens/LoginPage";
 import auth from "@react-native-firebase/auth";
@@ -20,6 +20,7 @@ export default function App() {
 
   React.useEffect(() => {
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
+    return subscriber;
   }, []);
 
   return (

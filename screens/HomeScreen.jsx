@@ -1,10 +1,17 @@
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, View, Button } from "react-native";
 import React from "react";
+import auth from "@react-native-firebase/auth";
 
 const HomeScreen = () => {
   return (
     <View>
       <Text>HomeScreen</Text>
+      <Button
+        title="Logout"
+        onPress={() => {
+          auth().signOut();
+        }}
+      />
     </View>
   );
 };
