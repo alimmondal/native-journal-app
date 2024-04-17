@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "909337502017",
+    "project_id": "journal-app-cd399",
+    "storage_bucket": "journal-app-cd399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:909337502017:android:f3381be19a6bae0c2341c0",
+        "android_client_info": {
+          "package_name": "com.alim.journalapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCFirwzl3uchgz979GqqDmd2zGzu_855Aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
