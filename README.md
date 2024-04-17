@@ -1,6 +1,6 @@
 # native-journal-app
 
-npx expo install @react-native-firebase/auth @react-native-firebase/crashlytics
+npx expo install @react-native-firebase/auth
 
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
@@ -22,10 +22,12 @@ npm install @react-navigation/native
 
 npx expo install react-native-screens react-native-safe-area-context
 
-#npx expo install react-native-gesture-handler
+npx expo install react-native-gesture-handler
 
 npx expo prebuild --clean
 
 npx expo run:android or npx expo run:ios
+
+npx expo start --dev-client
 
 npm run android
